@@ -73,7 +73,7 @@ public class CustomTextView extends TextView {
             mSpannableColor =spannableColor;
             mMobileNumberClickable = isMobileNumberClickable;
 
-            //setTextStyle(fontFace);
+            setTextStyle(fontFace);
             setSpannableString();
             ta.recycle();
         }
